@@ -1,0 +1,19 @@
+# docker-compose build
+# docker-compose up
+
+services:
+  ebiznes-docker:
+    build:
+      context: .
+    image: elyrwag/ebiznes-docker-image:latest
+    container_name: ebiznes-docker-container
+    ports:
+      - "9001:8080"
+    working_dir: /home/student
+    environment:
+      - TZ=Europe/Warsaw
+    command: gradle run -q
+    stdin_open: true
+    tty: true
+
+
