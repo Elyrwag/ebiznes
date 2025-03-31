@@ -6,7 +6,7 @@ Simple tests in bash to check if everything is working.
 
 Product:
 
-```json
+```
 {
   "id": int, // only in GET method
   "name": str, 
@@ -17,7 +17,7 @@ Product:
 
 Category:
 
-```json
+```
 {
   "id": int, // only in GET method
   "name": str
@@ -26,7 +26,7 @@ Category:
 
 Cart:
 
-```json
+```
 {
   "id": int, // only in GET method
   "name": str,
