@@ -10,11 +10,13 @@
 
 :white_check_mark: 4.5 program typu HelloWorld oraz uruchamianie aplikacji przez CMD oraz gradle
 
-:white_check_mark: 5.0 konfiguracja docker-compose
+:white_check_mark: 5.0 konfiguracja docker-compose 
 
-Obraz: [dockerhub](https://hub.docker.com/r/elyrwag/ebiznes-docker-image)
+**Commit zbiorczy**: [commit 5 i poniżej](https://github.com/Elyrwag/ebiznes/commit/0805aac8b8e4bc0ecbc5d643eb4c5f5d72dd7b9b)
 
-Kod: [docker](https://github.com/Elyrwag/ebiznes/tree/main/docker)
+**Obraz**: [dockerhub](https://hub.docker.com/r/elyrwag/ebiznes-docker-image)
+
+**Kod**: [docker](https://github.com/Elyrwag/ebiznes/tree/main/docker)
 
 
 ### Zadanie 2: Scala
@@ -29,6 +31,8 @@ framework Play w Scali 3
 
 :white_check_mark: 4.5 aplikacja uruchamiana na dockerze oraz skrypt uruchamiający aplikację via ngrok
 
-:white_check_mark: 5.0 konfiguracja CORS dla dwóch hostów dla metod CRUD
+:white_check_mark: 5.0 konfiguracja CORS dla dwóch hostów dla metod CRUD 
 
-Kod: [scala](https://github.com/Elyrwag/ebiznes/tree/main/scala)
+**Commit zbiorczy**: [commit 5 i poniżej](https://github.com/Elyrwag/ebiznes/commit/bf73fb52d723e594207a6261b4c4ae1056626a3d)
+
+**Kod**: [scala](https://github.com/Elyrwag/ebiznes/tree/main/scala)
