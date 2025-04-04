@@ -52,7 +52,7 @@ framework Ktor w Kotlinie
 
 :white_check_mark: 5.0 aplikacja obsługuje dodatkowo platformę Slack
 
-**Commit zbiorczy**: [commit 5 i poniżej](https://github.com/Elyrwag/ebiznes/commit/)
+**Commit zbiorczy**: [commit 5 i poniżej](https://github.com/Elyrwag/ebiznes/commit/035d563bf0be023b858bd356b6a8356bbd209928)
 
 **Kod**: [kotlin](https://github.com/Elyrwag/ebiznes/tree/main/kotlin)
 
