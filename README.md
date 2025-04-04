@@ -36,3 +36,23 @@ framework Play w Scali 3
 **Commit zbiorczy**: [commit 5 i poniżej](https://github.com/Elyrwag/ebiznes/commit/bf73fb52d723e594207a6261b4c4ae1056626a3d)
 
 **Kod**: [scala](https://github.com/Elyrwag/ebiznes/tree/main/scala)
+
+
+### Zadanie 3: Kotlin
+
+framework Ktor w Kotlinie
+
+:white_check_mark: 3.0 aplikacja kliencka, która pozwala na przesyłanie wiadomości na platformę Discord
+
+:white_check_mark: 3.5 aplikacja jest w stanie odbierać wiadomości użytkowników z platformy Discord skierowane do aplikacji (bota)
+
+:white_check_mark: 4.0 zwraca listę kategorii na określone żądanie użytkownika
+
+:white_check_mark: 4.5 zwraca listę produktów według żądanej kategorii
+
+:white_check_mark: 5.0 aplikacja obsługuje dodatkowo platformę Slack
+
+**Commit zbiorczy**: [commit 5 i poniżej](https://github.com/Elyrwag/ebiznes/commit/)
+
+**Kod**: [kotlin](https://github.com/Elyrwag/ebiznes/tree/main/kotlin)
+
