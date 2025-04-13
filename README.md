@@ -56,3 +56,24 @@ framework Ktor w Kotlinie
 
 **Kod**: [kotlin](https://github.com/Elyrwag/ebiznes/tree/main/kotlin)
 
+
+### Zadanie 4: Go
+
+framework Echo w Go, baza danych: SQLite
+
+5 modeli, gdzie pomiędzy dwoma jest relacja
+
+:white_check_mark: 3.0 aplikacja, która ma kontroler Produktów zgodny z CRUD
+
+:white_check_mark: 3.5 model Produktów wykorzystując gorm, model wykorzystywany do obsługi produktów w kontrolerze
+
+:white_check_mark: 4.0 model Koszyka oraz odpowiedni endpoint
+
+:white_check_mark: 4.5 model Kategorii, relacja między Kategorią, a Produktem
+
+:white_check_mark: 5.0 gorm’owe scope'y
+
+**Commit zbiorczy**: [commit 5 i poniżej](https://github.com/Elyrwag/ebiznes/commit/)
+
+**Kod**: [echo-go](https://github.com/Elyrwag/ebiznes/tree/main/echo-go)
+
