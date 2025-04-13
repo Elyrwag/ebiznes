@@ -73,7 +73,7 @@ framework Echo w Go, baza danych: SQLite
 
 :white_check_mark: 5.0 gorm’owe scope'y
 
-**Commit zbiorczy**: [commit 5 i poniżej](https://github.com/Elyrwag/ebiznes/commit/)
+**Commit zbiorczy**: [commit 5 i poniżej](https://github.com/Elyrwag/ebiznes/commit/4c459a60582ca193c4e03a246010153aa4353a62)
 
 **Kod**: [echo-go](https://github.com/Elyrwag/ebiznes/tree/main/echo-go)
 
