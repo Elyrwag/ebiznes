@@ -118,21 +118,23 @@ Frontend: React, Backend: Go
 **Kod**: [](https://github.com/Elyrwag/ebiznes/tree/main/)
 
 
-### Zadanie 7: 
+### Zadanie 7: Sonar
 
+Linter dla Go: [golangci-lint](https://golangci-lint.run/)
 
+:white_check_mark: 3.0 linter do kodu aplikacji serwerowej w hookach gita
 
- 3.0 
+:white_check_mark: 3.5 wyeliminowane wszystkie błędy typu "Bugs" w kodzie w Sonarze (kod aplikacji serwerowej)
 
- 3.5 
+:white_check_mark: 4.0 wyeliminowane wszystkie błędy typu "Code Smells" w kodzie w Sonarze (kod aplikacji serwerowej)
 
- 4.0 
+:white_check_mark: 4.5 wyeliminowane wszystkie błędy typu "Vulnerabilities" i "Security Hotspots" w kodzie w Sonarze (kod aplikacji serwerowej)
 
- 4.5 
-
- 5.0 
+:white_check_mark: 5.0 wyeliminowane wszystkie błędy w kodzie aplikacji klienckiej
 
 **Commit zbiorczy**: [commit 5 i poniżej](https://github.com/Elyrwag/ebiznes/commit/)
 
-**Kod**: [](https://github.com/Elyrwag/ebiznes/tree/main/)
+**Kod**: 
+- [folder shop-app-sonar](https://github.com/Elyrwag/ebiznes/tree/main/shop-app-sonar)
+- [repozytorium shop-app-sonar](https://github.com/Elyrwag/shop-app-sonar)
 
