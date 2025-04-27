@@ -77,3 +77,62 @@ framework Echo w Go, baza danych: SQLite
 
 **Kod**: [echo-go](https://github.com/Elyrwag/ebiznes/tree/main/echo-go)
 
+
+### Zadanie 5: React + Go
+
+Aplikacja webowa - sklep 
+
+Frontend: React, Backend: Go
+
+:white_check_mark: 3.0 dwa komponenty: Produkty oraz Płatności. Płatności wysyłają do aplikacji serwerowej dane, a w Produktach pobierane są dane o produktach z aplikacji serwerowej
+
+:white_check_mark: 3.5 Koszyk wraz z widokiem; wykorzystany routing
+
+:white_check_mark: 4.0 React hooks do przesyłania danych pomiędzy wszystkimi komponentami
+
+:white_check_mark: 4.5 skrypt uruchamiający aplikację serwerową oraz kliencką na dockerze via docker-compose
+
+:white_check_mark: 5.0 axios oraz nagłówki pod CORS
+
+**Commit zbiorczy**: [commit 5 i poniżej](https://github.com/Elyrwag/ebiznes/commit/)
+
+**Kod**: [shop-app](https://github.com/Elyrwag/ebiznes/tree/main/shop-app)
+
+
+### Zadanie 6: 
+
+
+
+ 3.0 
+
+ 3.5 
+
+ 4.0 
+
+ 4.5 
+
+ 5.0 
+
+**Commit zbiorczy**: [commit 5 i poniżej](https://github.com/Elyrwag/ebiznes/commit/)
+
+**Kod**: [](https://github.com/Elyrwag/ebiznes/tree/main/)
+
+
+### Zadanie 7: 
+
+
+
+ 3.0 
+
+ 3.5 
+
+ 4.0 
+
+ 4.5 
+
+ 5.0 
+
+**Commit zbiorczy**: [commit 5 i poniżej](https://github.com/Elyrwag/ebiznes/commit/)
+
+**Kod**: [](https://github.com/Elyrwag/ebiznes/tree/main/)
+
