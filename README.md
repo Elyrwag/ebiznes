@@ -132,7 +132,7 @@ Linter dla Go: [golangci-lint](https://golangci-lint.run/)
 
 :white_check_mark: 5.0 wyeliminowane wszystkie błędy w kodzie aplikacji klienckiej
 
-**Commit zbiorczy**: [commit 5 i poniżej](https://github.com/Elyrwag/ebiznes/commit/)
+**Commit zbiorczy**: [commit 5 i poniżej](https://github.com/Elyrwag/ebiznes/commit/63517f44b725210b15cad85555c339ccdedacfe5)
 
 **Kod**: 
 - [folder shop-app-sonar](https://github.com/Elyrwag/ebiznes/tree/main/shop-app-sonar)
