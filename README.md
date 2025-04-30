@@ -99,23 +99,23 @@ Frontend: React, Backend: Go
 **Kod**: [shop-app](https://github.com/Elyrwag/ebiznes/tree/main/shop-app)
 
 
-### Zadanie 6: 
+### Zadanie 6: Testy
 
+Użyte rozwiązanie: CypressJS
 
+:white_check_mark: 3.0 minimum 20 przypadków testowych w CypressJS
 
- 3.0 
+:white_check_mark: 3.5 rozszerzenie testów funkcjonalnych, aby zawierały minimum 50 asercji
 
- 3.5 
+:white_check_mark: 4.0 testy jednostkowe z minimum 50 asercjami
 
- 4.0 
+:white_check_mark: 4.5 testy API pokrywające wszystkie endpointy z minimum jednym scenariuszem negatywnym per endpoint
 
- 4.5 
-
- 5.0 
+:white_check_mark: 5.0 uruchomienie testów funkcjonalnych na Browserstacku
 
 **Commit zbiorczy**: [commit 5 i poniżej](https://github.com/Elyrwag/ebiznes/commit/)
 
-**Kod**: [](https://github.com/Elyrwag/ebiznes/tree/main/)
+**Kod**: [shop-app-tests](https://github.com/Elyrwag/ebiznes/tree/main/shop-app-tests)
 
 
 ### Zadanie 7: Sonar
