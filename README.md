@@ -113,7 +113,7 @@ Użyte rozwiązanie: CypressJS
 
 :white_check_mark: 5.0 uruchomienie testów funkcjonalnych na Browserstacku
 
-**Commit zbiorczy**: [commit 5 i poniżej](https://github.com/Elyrwag/ebiznes/commit/)
+**Commit zbiorczy**: [commit 5 i poniżej](https://github.com/Elyrwag/ebiznes/commit/7bf1195baccb0184c4fd43afaa968b92b7861aa2)
 
 **Kod**: [shop-app-tests](https://github.com/Elyrwag/ebiznes/tree/main/shop-app-tests)
 
