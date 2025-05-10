@@ -151,7 +151,7 @@ Linter dla Go: [golangci-lint](https://golangci-lint.run/)
 
 :white_check_mark: 5.0 zapisywanie danych logowania OAuth2 po stronie serwera
 
-**Commit zbiorczy**: [commit 5 i poniżej](https://github.com/Elyrwag/ebiznes/commit/)
+**Commit zbiorczy**: [commit 5 i poniżej](https://github.com/Elyrwag/ebiznes/commit/d07efddf6afc6be2f1d1a6b1797990c3ad0e8d7e)
 
 **Kod**: [oauth2](https://github.com/Elyrwag/ebiznes/tree/main/oauth2)
 
