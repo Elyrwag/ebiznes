@@ -138,3 +138,20 @@ Linter dla Go: [golangci-lint](https://golangci-lint.run/)
 - [folder shop-app-sonar](https://github.com/Elyrwag/ebiznes/tree/main/shop-app-sonar)
 - [repozytorium shop-app-sonar](https://github.com/Elyrwag/shop-app-sonar)
 
+
+### Zadanie 8: OAuth2
+
+:white_check_mark: 3.0 logowanie przez aplikację serwerową
+
+:white_check_mark: 3.5 rejestracja przez aplikację serwerową
+
+:white_check_mark: 4.0 logowanie przez Google OAuth2
+
+:white_check_mark: 4.5 logowanie przez Github OAuth2
+
+:white_check_mark: 5.0 zapisywanie danych logowania OAuth2 po stronie serwera
+
+**Commit zbiorczy**: [commit 5 i poniżej](https://github.com/Elyrwag/ebiznes/commit/)
+
+**Kod**: [oauth2](https://github.com/Elyrwag/ebiznes/tree/main/oauth2)
+
