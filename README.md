@@ -170,7 +170,7 @@ Frontend: React, Backend: Go, Service: Python, Model: llama3.1:8b
 
 :white_check_mark: 5.0 filtrowanie odpowiedzi po sentymencie
 
-**Commit zbiorczy**: [commit 5 i poniżej](https://github.com/Elyrwag/ebiznes/commit/)
+**Commit zbiorczy**: [commit 5 i poniżej](https://github.com/Elyrwag/ebiznes/commit/287114defed770bceb32d22e268b87ef09029d84)
 
 **Kod**: [chat-bot](https://github.com/Elyrwag/ebiznes/tree/main/chat-bot)
 
