@@ -155,3 +155,22 @@ Linter dla Go: [golangci-lint](https://golangci-lint.run/)
 
 **Kod**: [oauth2](https://github.com/Elyrwag/ebiznes/tree/main/oauth2)
 
+
+### Zadanie 9: Chat bot
+
+Frontend: React, Backend: Go, Service: Python, Model: llama3.1:8b
+
+:white_check_mark: 3.0 serwis po stronie serwerowej do łączenia z modelem do usługi chat
+
+:white_check_mark: 3.5 interfejs frontowy dla użytkownika, który komunikuje się z serwisem, odpowiedzi wysyłane do frontendowego interfejsu
+
+:white_check_mark: 4.0 listy z 5 różnymi otwarciami oraz zamknięciami rozmowy
+
+:white_check_mark: 4.5 filtrowanie po zagadnieniach związanych ze sklepem
+
+:white_check_mark: 5.0 filtrowanie odpowiedzi po sentymencie
+
+**Commit zbiorczy**: [commit 5 i poniżej](https://github.com/Elyrwag/ebiznes/commit/)
+
+**Kod**: [chat-bot](https://github.com/Elyrwag/ebiznes/tree/main/chat-bot)
+

@@ -1,0 +1,33 @@
+# docker-compose up --build
+
+version: '3.8'
+
+services:
+  client:
+    build: ./client
+    ports:
+      - "3000:3000"
+    depends_on:
+      - server
+
+  server:
+    build: ./server
+    ports:
+      - "5000:5000"
+    depends_on:
+      - service
+
+  service:
+    build: ./service
+    ports:
+      - "3334:3334"
+    depends_on:
+      - ollama
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ./ollama/ollama-models:/root/.ollama

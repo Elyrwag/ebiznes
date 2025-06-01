@@ -1,0 +1,6 @@
+fastapi
+httpx
+uvicorn
+spacy
+transformers
+torch
