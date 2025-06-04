@@ -149,7 +149,7 @@ jobs:
         run: npx wait-on ${{ env.CYPRESS_BASE_URL }}
 
       - name: Wait for backend
-        run: npx wait-on ${{ env.BACKEND_URL }}/api/products
+        run: npx wait-on --http-method GET ${{ env.BACKEND_URL }}/api/products
 
       - name: Run Cypress tests
         run: npx cypress run
