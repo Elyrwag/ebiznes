@@ -123,3 +123,24 @@ jobs:
           html_body: |
             <b>Build & Deploy on Azure have been completed</b><br>
             Repo: <a href="https://github.com/${{ github.repository }}">${{ github.repository }}</a><br>
+
+  tests:
+    permissions:
+      contents: none
+    runs-on: ubuntu-latest
+    needs: deploy
+    defaults:
+      run:
+        working-directory: shop-app-tests/client
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Node dependencies
+        run: npm ci
+
+      - name: Wait for frontend
+        run: npx wait-on ${{ vars.FRONTEND_URL }}
+
+      - name: Run Cypress tests
+        run: npx cypress run
