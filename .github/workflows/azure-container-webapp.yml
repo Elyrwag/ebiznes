@@ -102,3 +102,24 @@ jobs:
           app-name: ${{ env.AZURE_WEBAPP_NAME_BACKEND }}
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE_BACKEND }}
           images: 'ghcr.io/${{ env.REPO }}-backend:${{ github.sha }}'
+
+  notify:
+    permissions:
+      contents: none
+    runs-on: ubuntu-latest
+    needs: [build, deploy]
+
+    steps:
+      - name: Send email notification
+        uses: dawidd6/action-send-mail@v5
+        with:
+          server_address: ${{ secrets.MAIL_SERVER }}
+          server_port: ${{ secrets.MAIL_PORT }}
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: "Build & Deployment - ${{ github.repository }}"
+          to: ${{ secrets.MAIL_TO_USERNAME }}
+          from: GitHub CI <${{ secrets.MAIL_USERNAME }}>
+          html_body: |
+            <b>Build & Deploy on Azure have been completed</b><br>
+            Repo: <a href="https://github.com/${{ github.repository }}">${{ github.repository }}</a><br>
