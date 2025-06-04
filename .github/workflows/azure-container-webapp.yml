@@ -131,16 +131,19 @@ jobs:
     needs: deploy
     defaults:
       run:
-        working-directory: shop-app-tests/client
+        working-directory: ./cloud-CI/tests
 
     steps:
       - uses: actions/checkout@v4
+      
+      - name: Set BASE_URL env
+        run: echo "CYPRESS_BASE_URL=${{ vars.FRONTEND_URL }}" >> $GITHUB_ENV
 
       - name: Install Node dependencies
         run: npm ci
 
       - name: Wait for frontend
-        run: npx wait-on ${{ vars.FRONTEND_URL }}
+        run: npx wait-on ${{ env.CYPRESS_BASE_URL }}
 
       - name: Run Cypress tests
         run: npx cypress run
