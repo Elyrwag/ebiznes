@@ -19,5 +19,5 @@ func main() {
 	}))
 
 	routes.SetupRoutes(e)
-	e.Logger.Fatal(e.Start(":5000"))
+	e.Logger.Fatal(e.Start("0.0.0.0:5000"))
 }

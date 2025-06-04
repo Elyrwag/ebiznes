@@ -139,11 +139,17 @@ jobs:
       - name: Set BASE_URL env
         run: echo "CYPRESS_BASE_URL=${{ vars.FRONTEND_URL }}" >> $GITHUB_ENV
 
+      - name: Set BACKEND_URL env
+        run: echo "BACKEND_URL=${{ vars.BACKEND_URL }}" >> $GITHUB_ENV
+
       - name: Install Node dependencies
         run: npm ci
 
       - name: Wait for frontend
         run: npx wait-on ${{ env.CYPRESS_BASE_URL }}
+
+      - name: Wait for backend
+        run: npx wait-on ${{ env.BACKEND_URL }}
 
       - name: Run Cypress tests
         run: npx cypress run
