@@ -62,7 +62,7 @@ jobs:
         uses: docker/build-push-action@0565240e2d4ab88bba5387d719585280857ece09 # v5.0.0
         with:
           push: true
-          tags: ghcr.io/${{ env.REPO }}/frontend:latest
+          tags: ghcr.io/${{ env.REPO }}-frontend:latest
           context: ./shop-app/client
           file: ./shop-app/client/Dockerfile
 
@@ -70,7 +70,7 @@ jobs:
         uses: docker/build-push-action@0565240e2d4ab88bba5387d719585280857ece09 # v5.0.0
         with:
           push: true
-          tags: ghcr.io/${{ env.REPO }}/backend:latest
+          tags: ghcr.io/${{ env.REPO }}-backend:latest
           context: ./shop-app/server
           file: ./shop-app/server/Dockerfile
 
@@ -93,7 +93,7 @@ jobs:
         with:
           app-name: ${{ env.AZURE_WEBAPP_NAME_FRONTEND }}
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE_FRONTEND }}
-          images: 'ghcr.io/${{ env.REPO }}/frontend:latest'
+          images: 'ghcr.io/${{ env.REPO }}-frontend:latest'
 
       - name: Deploy backend to Azure Web App
         id: deploy-backend-to-webapp
@@ -101,4 +101,4 @@ jobs:
         with:
           app-name: ${{ env.AZURE_WEBAPP_NAME_BACKEND }}
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE_BACKEND }}
-          images: 'ghcr.io/${{ env.REPO }}/backend:latest'
+          images: 'ghcr.io/${{ env.REPO }}-backend:latest'
