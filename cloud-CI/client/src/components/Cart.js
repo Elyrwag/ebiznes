@@ -6,7 +6,7 @@ function Cart() {
     const { cart, removeFromCart, clearCart } = useShop();
 
     const submitCart = async () => {
-        await axios.post(`${process.env.API_URL}/api/submit-cart`, {
+        await axios.post(`${process.env.REACT_APP_API_URL}/api/submit-cart`, {
             items: cart
         }).catch(err => console.error('Submit cart error: ', err));
     };

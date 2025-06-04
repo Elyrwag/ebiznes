@@ -7,7 +7,7 @@ function Products() {
     const { addToCart } = useShop(); // custom hook
 
     useEffect(() => {
-        axios.get(`${process.env.API_URL}/api/products`)
+        axios.get(`${process.env.REACT_APP_API_URL}/api/products`)
             .then(res => setProducts(res.data))
             .catch(err => console.error('Get products error: ', err));
     }, []);

@@ -25,7 +25,7 @@ function Payments() {
             return;
         }
 
-        await axios.post(`${process.env.API_URL}/api/complete-payment`, {
+        await axios.post(`${process.env.REACT_APP_API_URL}/api/complete-payment`, {
             customer: form,
             cart: { items: cart },
             total: cart.reduce((total, item) => total + item.product.price * item.quantity, 0)
