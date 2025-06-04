@@ -63,16 +63,16 @@ jobs:
         with:
           push: true
           tags: ghcr.io/${{ env.REPO }}-frontend:latest
-          context: ./cloud-ci/client
-          file: ./cloud-ci/client/Dockerfile
+          context: ./cloud-CI/client
+          file: ./cloud-CI/client/Dockerfile
 
       - name: Build and push backend container image to registry
         uses: docker/build-push-action@0565240e2d4ab88bba5387d719585280857ece09 # v5.0.0
         with:
           push: true
           tags: ghcr.io/${{ env.REPO }}-backend:latest
-          context: ./cloud-ci/server
-          file: ./cloud-ci/server/Dockerfile
+          context: ./cloud-CI/server
+          file: ./cloud-CI/server/Dockerfile
 
   deploy:
     permissions:
