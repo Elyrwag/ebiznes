@@ -174,3 +174,28 @@ Frontend: React, Backend: Go, Service: Python, Model: llama3.1:8b
 
 **Kod**: [chat-bot](https://github.com/Elyrwag/ebiznes/tree/main/chat-bot)
 
+
+### Zadanie 10: Chmura/CI
+
+GitHub Actions & Azure
+
+:white_check_mark: 3.0 stworzone instancje po stronie chmury
+
+:white_check_mark: 3.5 stworzony pipeline w Github Actions do budowania aplikacji
+
+:white_check_mark: 4.0 notyfikacje mailowe o zbudowaniu aplikacji
+
+:white_check_mark: 4.5 deployment aplikacji serwerowej oraz klienckiej na chmurę
+
+:white_check_mark: 5.0 uruchamiane regresyjne testy automatyczne (funkcjonalne) jako krok w Actions
+
+**Commity**: 
+
+- na 5.0 - kilka commit'ów: [pierwszy](https://github.com/Elyrwag/ebiznes/commit/bd86f413f015046c685ed1a469689134b676048a), [ostatni](https://github.com/Elyrwag/ebiznes/commit/7c81518823d4c97c71320c07c79b1459f230b867)
+- na 3.0, 3.5 oraz 4.5 - kilkanaście commit'ów: [pierwszy](https://github.com/Elyrwag/ebiznes/commit/2c62fa19664c03337dbc2419fcbdeb2c22ab727f), [ostatni](https://github.com/Elyrwag/ebiznes/commit/d488365ab2c0e8fb4ce25e9155275d8e55d66ef2)
+- na 4.0: [commit](https://github.com/Elyrwag/ebiznes/commit/534bf2ff31ffc58f6d1695af8078a3223e8a7877)
+
+**Strona**: [Azure](https://shop-app-frontend-dwegdwbub9e6hqae.polandcentral-01.azurewebsites.net/)
+
+**Kod**: [cloud-CI](https://github.com/Elyrwag/ebiznes/tree/main/cloud-CI)
+
