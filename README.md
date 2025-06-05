@@ -197,5 +197,8 @@ GitHub Actions & Azure
 
 **Strona**: [Azure](https://shop-app-frontend-dwegdwbub9e6hqae.polandcentral-01.azurewebsites.net/)
 
-**Kod**: [cloud-CI](https://github.com/Elyrwag/ebiznes/tree/main/cloud-CI)
+**Kod**: 
+
+- [cloud-CI](https://github.com/Elyrwag/ebiznes/tree/main/cloud-CI)
+- [azure-container-webapp.yml](https://github.com/Elyrwag/ebiznes/blob/main/.github/workflows/azure-container-webapp.yml)
 
